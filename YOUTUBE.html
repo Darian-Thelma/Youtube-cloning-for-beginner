@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- The Header -->
+    <header>
+        <div class="logo-container">
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="icons-container">
+            <div class="icon"><i class="fas fa-video"></i></div>
+            <div class="icon"><i class="fas fa-bell"></i></div>
+            <div class="user-icon">U</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- The Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-item active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-fire"></i>
+                <span>Trending</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-folder"></i>
+                <span>Subscriptions</span>
+            </div>
+
+            <div class="sidebar-divider"></div>
+
+            <div class="sidebar-item">
+                <i class="fas fa-photo-video"></i>
+                <span>Library</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-history"></i>
+                <span>History</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-clock"></i>
+                <span>Watch later</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-thumbs-up"></i>
+                <span>Liked videos</span>
+            </div>
+
+            <div class="sidebar-divider"></div>
+
+        </div>
+
+        <!--  For the Main Content -->
+        <div class="main-content">
+            <div class="category-container">
+                <div class="category-item active">All</div>
+                <div class="category-item">Gaming</div>
+                <div class="category-item">Music</div>
+                <div class="category-item">Live</div>
+                <div class="category-item">JavaScript</div>
+                <div class="category-item">Programming</div>
+                <div class="category-item">React</div>
+                <div class="category-item">Computer Science</div>
+                <div class="category-item">Podcasts</div>
+                <div class="category-item">Comedy</div>
+                <div class="category-item">Recently uploaded</div>
+            </div>
+
+            <div class="videos-container">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/hdI2bqOjy3c/maxresdefault.jpg" alt="JavaScript Tutorial">
+                        <div class="duration">15:42</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">C</div>
+                        <div class="video-details">
+                            <div class="video-title">JavaScript Crash Course For Beginners</div>
+                            <div class="channel-name">Coding Tutorials</div>
+                            <div class="video-stats">1.2M views • 2 months ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/1PnVor36_40/maxresdefault.jpg" alt="CSS Grid">
+                        <div class="duration">18:33</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">W</div>
+                        <div class="video-details">
+                            <div class="video-title">CSS Grid Tutorial: Responsive Layout Examples</div>
+                            <div class="channel-name">Web Dev Simplified</div>
+                            <div class="video-stats">850K views • 3 weeks ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/RBSGKlAvoiM/maxresdefault.jpg" alt="React Tutorial">
+                        <div class="duration">42:15</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">F</div>
+                        <div class="video-details">
+                            <div class="video-title">Learn React JS - Full Course for Beginners</div>
+                            <div class="channel-name">FreeCodeCamp</div>
+                            <div class="video-stats">2.3M views • 6 months ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/PkZNo7MFNFg/maxresdefault.jpg" alt="JavaScript Basics">
+                        <div class="duration">3:26:43</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">C</div>
+                        <div class="video-details">
+                            <div class="video-title">Learn JavaScript - Full Course for Beginners</div>
+                            <div class="channel-name">CodeCamp</div>
+                            <div class="video-stats">4.7M views • 1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/BsDoLVMnmZs/maxresdefault.jpg" alt="HTML Crash Course">
+                        <div class="duration">1:00:00</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">T</div>
+                        <div class="video-details">
+                            <div class="video-title">HTML Crash Course - Build a Website Tutorial</div>
+                            <div class="channel-name">Traversy Media</div>
+                            <div class="video-stats">1.8M views • 8 months ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/W6NZfCO5SIk/maxresdefault.jpg" alt="JavaScript Basics">
+                        <div class="duration">1:40:22</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">M</div>
+                        <div class="video-details">
+                            <div class="video-title">JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour</div>
+                            <div class="channel-name">Mosh Hamedani</div>
+                            <div class="video-stats">3.1M views • 2 years ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 7 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/8mAITcNt710/maxresdefault.jpg" alt="Python Programming">
+                        <div class="duration">6:14:06</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">F</div>
+                        <div class="video-details">
+                            <div class="video-title">Python for Beginners - Full Course [Programming Tutorial]</div>
+                            <div class="channel-name">FreeCodeCamp</div>
+                            <div class="video-stats">5.2M views • 1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 8 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/2nZiB1JItbY/maxresdefault.jpg" alt="CSS Animation">
+                        <div class="duration">11:57</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">D</div>
+                        <div class="video-details">
+                            <div class="video-title">CSS Animations Tutorial - Create Amazing Effects</div>
+                            <div class="channel-name">DesignCourse</div>
+                            <div class="video-stats">450K views • 1 month ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 9 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/3JluqTojuME/maxresdefault.jpg" alt="Vue.js Tutorial">
+                        <div class="duration">2:05:31</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">T</div>
+                        <div class="video-details">
+                            <div class="video-title">Vue JS Crash Course</div>
+                            <div class="channel-name">Traversy Media</div>
+                            <div class="video-stats">1.1M views • 1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 10 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/jS4aFq5-91M/maxresdefault.jpg" alt="SQL Tutorial">
+                        <div class="duration">4:20:39</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">P</div>
+                        <div class="video-details">
+                            <div class="video-title">SQL Tutorial - Full Database Course for Beginners</div>
+                            <div class="channel-name">Programming with Mosh</div>
+                            <div class="video-stats">2.6M views • 1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 11 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/3b7FyIxWW94/maxresdefault.jpg" alt="Web Design">
+                        <div class="duration">15:42</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">D</div>
+                        <div class="video-details">
+                            <div class="video-title">Modern Web Design Trends 2023</div>
+                            <div class="channel-name">Design Sense</div>
+                            <div class="video-stats">320K views • 2 weeks ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 12 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/UB1O30fR-EE/maxresdefault.jpg" alt="HTML Basics">
+                        <div class="duration">33:24</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">B</div>
+                        <div class="video-details">
+                            <div class="video-title">HTML Crash Course For Absolute Beginners</div>
+                            <div class="channel-name">Brad Traversy</div>
+                            <div class="video-stats">1.9M views • 4 years ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 13 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/gXLjWRteuWI/maxresdefault.jpg" alt="CSS Tips">
+                        <div class="duration">10:58</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">W</div>
+                        <div class="video-details">
+                            <div class="video-title">10 CSS Pro Tips - Code this, NOT that!</div>
+                            <div class="channel-name">Web Dev Simplified</div>
+                            <div class="video-stats">780K views • 5 months ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 14 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/1Rs2ND1ryYc/maxresdefault.jpg" alt="JavaScript Projects">
+                        <div class="duration">3:53:32</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">J</div>
+                        <div class="video-details">
+                            <div class="video-title">JavaScript Tutorial - 20 Projects in 20 Days</div>
+                            <div class="channel-name">JavaScript Mastery</div>
+                            <div class="video-stats">1.5M views • 3 months ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 15 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/l1EssrLxt7E/maxresdefault.jpg" alt="Responsive Design">
+                        <div class="duration">17:11</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">K</div>
+                        <div class="video-details">
+                            <div class="video-title">Responsive Web Design Tutorial for Beginners</div>
+                            <div class="channel-name">Kevin Powell</div>
+                            <div class="video-stats">920K views • 1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 16 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/zJSY8tbf_ys/maxresdefault.jpg" alt="Frontend Development">
+                        <div class="duration">10:25:58</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">F</div>
+                        <div class="video-details">
+                            <div class="video-title">Frontend Web Development Bootcamp Course</div>
+                            <div class="channel-name">FreeCodeCamp</div>
+                            <div class="video-stats">3.4M views • 1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 17 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/3PHXvlpOkf4/maxresdefault.jpg" alt="Build YouTube">
+                        <div class="duration">1:17:52</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">C</div>
+                        <div class="video-details">
+                            <div class="video-title">Build and Deploy a Modern YouTube Clone</div>
+                            <div class="channel-name">Clever Programmer</div>
+                            <div class="video-stats">1.6M views • 1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 18 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/ZxKM3DCV2kE/maxresdefault.jpg" alt="CSS Framework">
+                        <div class="duration">22:25</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">T</div>
+                        <div class="video-details">
+                            <div class="video-title">Tailwind CSS Tutorial - Why it's amazing</div>
+                            <div class="channel-name">The Net Ninja</div>
+                            <div class="video-stats">420K views • 6 months ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 19 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/ieTHC78giGQ/maxresdefault.jpg" alt="Git Tutorial">
+                        <div class="duration">1:09:13</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">T</div>
+                        <div class="video-details">
+                            <div class="video-title">Git and GitHub for Beginners - Crash Course</div>
+                            <div class="channel-name">Traversy Media</div>
+                            <div class="video-stats">1.3M views • 2 years ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 20 -->
+                <div class="video-card">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/HgwCeNVPlo0/maxresdefault.jpg" alt="API Tutorial">
+                        <div class="duration">38:30</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-icon">W</div>
+                        <div class="video-details">
+                            <div class="video-title">APIs for Beginners - How to use an API</div>
+                            <div class="channel-name">Web Dev Simplified</div>
+                            <div class="video-stats">670K views • 8 months ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
